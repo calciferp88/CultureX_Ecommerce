@@ -385,7 +385,8 @@
                         </li>
     
                     <?php } } else { ?>
-
+                        <li><a href="home.php#contact">CONTACT US</a>
+                        </li>
                 <?php } ?>
 
                     </ul>

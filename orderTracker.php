@@ -99,6 +99,7 @@
                 				<center>
 				                    <img class='status-div' src='themes/gif/orderpending.gif'>
 				                    <p class='widget-desc'>Waiting for <span>Seller's Approval</span></p><br>
+				                    <a href='receipt.php?orderid=$orderid' class='btn-link'>View Receipt</a>
 			                    </center>
                 			";
                 		}
@@ -110,6 +111,7 @@
 			                    <img class='status-div' src='themes/gif/handed.gif' style='width: 300px;'>
 			                    <p class='widget-desc'>Your order is handed to <span>Delivery Service</span></p>
 			                    <p class='widget-desc'>Delivery staff will be <span>Contact you</span> soon</p><br>
+			                    <a href='receipt.php?orderid=$orderid' class='btn-link'>View Receipt</a>
                     		</center>
                 			";
                 		}
@@ -121,6 +123,7 @@
 				                    <img class='status-div' src='themes/gif/delivering2.gif'><br>
 				                    <p class='widget-desc'>Delivering <span>your items</span></p>
 				                    <p class='widget-desc'>Please be ready to <span>Pick Up</span></p><br>
+				                    <a href='receipt.php?orderid=$orderid' class='btn-link'>View Receipt</a>
 			                    </center>
                 			";
                 		}
@@ -132,6 +135,7 @@
 				                    <img class='status-div' src='themes/gif/complete.gif'><br>
 				                    <p class='widget-desc'>Your order is<span> Completed</span></p>
 				                    <p class='widget-desc'><span>Enjoy your items</span></p><br>
+				                    <a href='receipt.php?orderid=$orderid' class='btn-link'>View Receipt</a>
 			                    </center>
                 			";
                 		}
